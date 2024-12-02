@@ -4,4 +4,4 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-exec celery -A django_celery_example worker -l INFO
+exec celery -A AdGenesis worker -l INFO

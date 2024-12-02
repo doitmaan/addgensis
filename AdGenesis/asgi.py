@@ -1,5 +1,5 @@
 """
-ASGI config for django_celery_example project.
+ASGI config for AdGenesis project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -14,7 +14,7 @@ from django.core.asgi import get_asgi_application
 
 from polls import routing
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_celery_example.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'AdGenesis.settings')
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),

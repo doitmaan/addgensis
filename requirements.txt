@@ -18,3 +18,8 @@ pytest-cov==4.1.0
 Pillow==10.1.0
 gunicorn==21.2.0
 uvicorn[standard]==0.25.0
+
+djangorestframework
+python-dotenv
+openai
+google-images-search

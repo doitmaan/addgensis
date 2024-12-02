@@ -7,7 +7,7 @@ from django.utils import autoreload
 
 
 def restart_celery():
-    celery_worker_cmd = "celery -A django_celery_example worker"
+    celery_worker_cmd = "celery -A AdGenesis worker"
     cmd = f'pkill -f "{celery_worker_cmd}"'
     if sys.platform == "win32":
         cmd = "taskkill /f /t /im celery.exe"
